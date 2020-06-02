@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Anar Jafarov </title>
+   <link href= "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet" type="text/css" /> 
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    
+
+  </head>
+  <body>
+
+    <!-- Heading-->
+   <header> 
+     <h1> ANAR JAFAROV </h1>
+     <h2> Full Stack Developer </h2>
+    <nav> <a href="#"> Home </a> |<a href="#about-me"> About </a> |<a href="#contact"> Contact </a></nav>
+   </header>
+  
+  <main> 
+    <!-- Introduction -->
+    
+     <img src ="Coding_python.jpg" alt= "coding">
+    <section>
+     <h2> Hello! My name is Anar. I`m a Full Stack Developer living in Chicago, IL. </h2>
+      <p> I enjoy coding and I love the fact that I get to learn something new every day and face new challenges to help me grow. It also helps me learn new skills  that I can apply to other areas of my life. </p>
+    </section>
+<hr>
+    <section id="about-me">
+      <!-- About Me -->
+
+    <h2> About Me </h2> 
+      <p> I am 32 years old, Azerbaijani native, born and raised in the suburb of capital Baku. 
+       I moved to the US in 2008 and have been living in Chicago, IL since then. </p>
+      <div class ="city-images">
+        <img src = "Baku.jpg" alt="Baku city at night">
+        <img src ="Chicago-Skyscraper.jpeg" alt="Skyscrapers of Chicago">
+       </div>  
+    
+     <h3> Things I like to do when I am not coding: </h3>
+       <ul>
+         <li> Reading </li>
+         <li> Watching historical documentaries </li>
+         <li> Learning about World Cultures </li>
+         <li> Playing Chess </li>
+         <li> Travelling across the US </li>
+         <li> Biking at the Lakefront Trail </li>
+       </ul>   
+    
+    <p> I am naturally <b>Epistemophile</b> - type of person that has a love of knowledge; specifically, excessive striving for or preoccupation with knowledge.</p>
+
+      <blockquote><b> Once you stop learning, you start dying” –Albert Einstein </b> </blockquote>
+      
+ <hr>
+   <section id = "contact">
+
+   <!-- Contact Options -->
+      <h2>Contact me: </h2>
+   <ol>
+     <li>
+       <a href="https://www.linkedin.com/in/anar-jafarov-9303571a8/"> Linkedin </a>
+     </li>
+     <li>
+       <a href ="https://github.com/Anar-88"> Github </a>
+     </li>
+     <li>  
+       <a href = "mailto: anarjafarov1988@gmail.com"> Send Email </a>
+     </li>  
+   </ol>
+   </section>
+  </main>
+  <footer>
+    <div class ="wrapper">
+      <p> &copy; Copyright 2020 - Anar Jafarov </p>
+    </div>  
+  </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
